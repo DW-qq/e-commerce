@@ -23,6 +23,10 @@ import {
     Tooltip,
     Pagination,
     Dialog,
+    Tag,
+    Tree,
+    Select,
+    Option,
     MessageBox
 } from 'element-ui'
 
@@ -48,6 +52,10 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Option)
+Vue.use(Select)
 
 
 

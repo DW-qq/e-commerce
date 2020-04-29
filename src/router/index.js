@@ -7,6 +7,10 @@ const Welcome = () => import('../views/Welcome')
 
 const Users = () => import('../views/user/Users')
 
+const Rights = () => import('../views/power/Rights')
+
+const Roles = () => import('../views/power/Roles')
+
 Vue.use(VueRouter)
 
   const routes = [
@@ -31,9 +35,18 @@ Vue.use(VueRouter)
         {
           path: '/users',
           component:Users
+        },
+        {
+          path:'/rights',
+          component:Rights
+        },
+        {
+          path:'/roles',
+          component:Roles
         }
       ]
-    }
+    },
+
 ]
 
 const router = new VueRouter({
